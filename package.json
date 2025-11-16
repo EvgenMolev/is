@@ -1,15 +1,10 @@
 {
-  "name": "is-components-new",
-  "description": "Is components",
-  "version": "0.0.4",
-  "license": "MIT",
-  "type": "module",
+   "name": "homyevgen",
+  "description": "Библиотека UI компонентов для Vue 3",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "sideEffects": false,
-  "files": [
-    "dist/*"
-  ],
+  "files": ["dist/*"],
   "scripts": {
     "dev": "storybook dev -p 6006 --no-open",
     "build": "vite build && storybook build",
@@ -63,4 +58,5 @@
     "npm": "11",
     "node": "24"
   }
+  
 }
